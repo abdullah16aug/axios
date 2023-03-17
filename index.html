@@ -37,23 +37,7 @@
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script>
-    axios.get('https://jsonplaceholder.typicode.com/users')
-    .then(response=>{
-        let tableBody=document.getElementById('data');
-        response.data.forEach(user=>{
-            let row= `<tr>
-                            <td>${user.name}</td>
-                            <td>${user.email}</td>
-                            <td>${user.phone}</td>
-                            <td>${user.website}</td>
-                        </tr>`;
-                        tableBody.innerHTML+=row;
-        }).catch(error=>{
-            console.log(error);
-        })
-    }
-
-    )
+<script src="script.js">
+   
 </script>
 </html>
