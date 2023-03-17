@@ -1,0 +1,9 @@
+To post/upload a single file to GitHub repository, follow the below steps:
+
+Open the Visual Studio Code.
+Add your file to the workspace (open the project with VSCode ->File->Add Folder to Workspace).
+Initialize with git (execute "git init" in the root folder of your workspace).
+Commit the changes ("Source Control: commit" from the left panel or use shortcut Ctrl+Shift+G).
+Publish your repo to GitHub ("Publish to GitHub" on commands tab / menu, below the source control icon).
+Fill in the required information (repository name, description, public or private, etc.) and click on Publish.
+This will send/upload/publish your file or project to the GitHub repository you have selected.
