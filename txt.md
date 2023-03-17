@@ -5,11 +5,8 @@ If using in node js you have to install axios
 npm i axios
 ```
 
-### Heading 3
+### IF using html include
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-- This is an unordered list item.
-- This is another unordered list item.
 
-1. This is an ordered list item.
-2. This is another ordered list item.
 
